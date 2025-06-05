@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #a4a4a4;
+}
+
+.calculator {
+    height: 500px;
+    width: 400px;
+background-image: url("calbg.jpg");
+background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    margin: 100px 100px 60px 500px;
+}
+
+input {
+    height: 75px;
+    width: 77px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.display input{
+    height: 53px;
+    width: 345px;
+    text-align: right;
+}
+.equal{
+    width: 165px;
+}
+#col{
+        color:black;
+    background-color: aqua;
+}
